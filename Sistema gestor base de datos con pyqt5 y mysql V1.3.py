@@ -167,6 +167,7 @@ class SistemaBaseDeDatos(QMainWindow):
             return None
 
     def retroceder_paginas(self):
+        self.flag=False # MOSTRAR ESTO A BRUNITO
         try:
             if self.indice_pagina <= 1:
                 self.indice_pagina = 1
