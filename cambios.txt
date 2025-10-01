@@ -1,0 +1,16 @@
+Ahora la funcion conectar_mysql(self) se instancia en "conexion" y no hace falta copiar todo el codigo
+
+splitter inmutable
+
+boton consultar tabla de usuarios
+
+Todos los metodos instancian conexion = self.conectar_mysql() al principio
+
+split() en inputbox mail
+
+ahora se puede agregar usuarios
+
+1.3:
+ahora def consultar_usuarios(self, consulta):, toma como parametro "consulta", que la sentencia es segun el boton presionado
+
+consultar_toda_la_tabla(self):, utiliza la variable consulta con "SELECT *", y lo guarda en consulta, y luego se ejecuta: consultar_usuarios(self, consulta)
